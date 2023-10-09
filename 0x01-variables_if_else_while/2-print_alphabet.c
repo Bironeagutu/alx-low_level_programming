@@ -1,11 +1,14 @@
-#include<stdio.h>
-int main()
-{
-	int i = 0;
-	while (i < 10){
-		printf("hellow world",i);
-		i++;
-	}
+#include <stdio.h>
 
-	return 0;
+int main() {
+    char letter = 'a';
+
+    while (letter <= 'z') {
+        putchar(letter);
+        letter++;
+    }
+
+    putchar('\n');
+
+    return 0;
 }
