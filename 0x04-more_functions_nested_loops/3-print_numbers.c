@@ -1,4 +1,5 @@
 #include "main.h"
+#include "putchar_header.c"
 
 /**
  * print_numbers - print numbers from zero to nine
