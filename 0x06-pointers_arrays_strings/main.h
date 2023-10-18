@@ -12,6 +12,7 @@ char *cap_string(char *);
 char *leet(char *);
 
 void reset_to_98(int *n);
+char *capitalize_words(char *str);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
 void _puts(char *str);
