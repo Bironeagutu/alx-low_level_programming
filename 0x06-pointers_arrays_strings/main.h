@@ -11,6 +11,7 @@ char *string_toupper(char *);
 char *cap_string(char *);
 char *leet(char *);
 char *leet(char *str);
+char *rot13(char *);
 
 void reset_to_98(int *n);
 char *capitalize_words(char *str);
