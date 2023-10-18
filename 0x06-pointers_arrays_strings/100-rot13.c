@@ -9,9 +9,9 @@ char *rot13(char *str)
 {
 	char alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char rot13[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-	int i, j;
+	int i , j;
 
-	for (i = 0; str[i] != '\0'; i++)
+	for (i  = 0; str[i] != '\0'; i++)
 	{
 		int found = 0;
 
