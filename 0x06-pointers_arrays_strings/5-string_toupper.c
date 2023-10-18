@@ -1,17 +1,14 @@
 #include "main.h"
 
 /**
- * string_toupper - change all lower case to upper
- * @n: pointer
- * @'':gvueghsdjj
- * Return: n
+ * string_toupper - Changes all lowercase letters to uppercase.
+ * @n: Pointer to the string.
+ * Return: Pointer to the modified string.
  */
-
-char *string_toupper(char *)
+char *string_toupper(char *n)
 {
-	int i;
+	int i = 0;
 
-	i = 0;
 	while (n[i] != '\0')
 	{
 		if (n[i] >= 'a' && n[i] <= 'z')
@@ -20,3 +17,4 @@ char *string_toupper(char *)
 	}
 	return (n);
 }
+
