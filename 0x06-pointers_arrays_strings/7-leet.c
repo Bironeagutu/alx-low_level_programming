@@ -8,7 +8,7 @@
 char *leet(char *str)
 {
 	char leet_map[] = "aAeEoOtTlL";
-	char leet_replace[] = "44370171";
+	char leet_replace[] = "43071";
 	int i, j;
 
 	for (i = 0; str[i] != '\0'; i++)
@@ -17,7 +17,7 @@ char *leet(char *str)
 		{
 			if (str[i] == leet_map[j])
 			{
-				str[i] = leet_replace[j];
+				str[i] = leet_replace[j / 2];
 				break;
 			}
 		}
